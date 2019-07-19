@@ -2,6 +2,10 @@ body {
   background-color: white;
 }
 
+table {
+  margin: 0 auto;
+}
+
 /* For entire button links table */
 #t01 {
   margin: 0 auto;
