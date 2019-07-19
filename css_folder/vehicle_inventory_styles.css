@@ -1,0 +1,122 @@
+
+body {
+  background-color: white;
+}
+
+/* For all tables in page */
+table {
+  margin: 0 auto;
+}
+
+/*For vehicle table */
+#t01 {
+  margin: 0 auto;
+  background-color: red;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 0px;
+}
+
+/* For entire button links table */
+#t02 {
+  margin: 0 auto;
+  padding: 30px 90px; 
+  border-spacing: 0px;
+  background-image: linear-gradient(lightgray, red);
+}
+
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Table cells in Button links table */
+#td01 {
+  border: 0px solid black;
+  vertical-align: middle;
+  border-collapse: collapse;
+  padding: 0px;
+}
+
+#td02 {
+  vertical-align: top;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0px;
+  margin: 0px;
+  width: 310px;
+}
+
+img {
+  width:480px;
+  height:370px;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Vehicle name text */
+#p01 {
+  font-family:Arial;
+  font-weight:bold;
+  font-size: 20px;
+  margin: 0px;
+  background-image: linear-gradient(white, lightgray);
+  padding: 5px;
+  text-align: left;
+}
+
+/* Vehicle information under vehicle name text; */
+#p02 {
+  font-family:Arial;
+  font-size: 13px;
+  margin: 0px;
+  background-color:white;
+  padding: 3px;
+  text-align: left;
+}
+
+/* Vehicle type text */
+#p03 {
+  font-family:Arial;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: central;
+  vertical-align: top;
+  margin: 0px;
+  padding: 5px 20px;
+  background-image: linear-gradient(white, lightgray);
+}
+
+a:link#a02, a:visited#a02 {
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(lightgray, red);
+  padding: 30px 30px;
+  border-right: 1px solid black;
+}
+
+/* Removes border-right line from Contact Us button */
+a:link#a03, a:visited#a03 {
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(lightgray, red);
+  padding: 30px 30px;
+  border-right: 0px solid black;
+}
+
+a:hover#a02, a:active#a02 {
+  background-image: linear-gradient(white, lightgray);
+  color: red;
+}
+
+/* Contact Us button now highlights when hovering over */
+a:hover#a03, a:active#a03 {
+  background-image: linear-gradient(white, lightgray);
+  color: red;
+}
