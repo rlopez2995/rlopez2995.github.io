@@ -1,0 +1,221 @@
+body {
+  background-color: white;
+}
+
+
+/* For all tables in page */
+table {
+  margin: 0 auto;
+}
+
+/* For Warranty Info table */
+#t01 {
+  table-layout: auto; width: 75%;
+  border-collapse: collapse;
+  text-align:center;
+  padding: 0px;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../pictures/diamond_plate_background.jpg");
+}
+
+/* For entire button links table */
+#t02 {
+  padding: 30px 90px; 
+  border-spacing: 0px;
+  background-image: linear-gradient(lightgray, red);
+}
+
+/* Additional Information Table */
+table.a {
+  border-spacing: 0;
+  table-layout: fixed; width: 85%;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../pictures/engine_background.jpg");
+  background-position: left center;
+}
+
+td {
+  border: 0px solid black;
+  border-collapse: collapse;
+  padding: 0px;
+  vertical-align: top;
+}
+
+/* Table cells in Button links table */
+#td01 {
+  border: 0px solid black;
+  vertical-align: middle;
+  border-collapse: collapse;
+  padding: 0px;
+  background-color: none;
+}
+
+/* Orange box information */
+#td02 {
+  border: 0px; solid black;
+  padding: 0px;
+  vertical-align: middle;
+  margin: 0px 5px 5px 5px;
+}
+
+a:link, a:visited {
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(lightgray, red);
+  padding: 30px 30px;
+  border-right: 1px solid black;
+}
+
+/* Removes border-right line from Contact Us button */
+a:link#a02, a:visited#a02 {
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(lightgray, red);
+  padding: 30px 30px;
+  border-right: 0px solid black;
+}
+
+/* Elite Warranty Link */
+a:link#a03, a:visited#a03 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 1px 1px black;
+  color: white;
+  background-image: none;
+  background-color: orange;
+  padding: 7px 7px;
+  border: 0px solid black;												
+}
+
+a:hover, a:active {
+  background-image: linear-gradient(white, lightgray);
+  color: red;
+}
+
+/* Contact Us button now highlights when hovering over */
+a:hover#a02, a:active#a02 {
+  background-image: linear-gradient(white, lightgray);
+  color: red;
+}
+
+#p00 {
+  font-size: 35px;
+  font-family: Arial;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin: 0px;
+  padding: 20px 0px 0px 0px;
+  line-height: 50%;
+}
+
+h1 {
+  position: relative;
+  font-size: 40px;
+  font-family: Arial;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-image: linear-gradient(orange, lightgray);
+  text-shadow: 1px 1px black;
+  margin: 5px;
+  padding: 10px;
+  width: 73.45%;
+  left: 162px;
+}
+
+h2 {
+  font-size: 38px;
+  font-family: Arial;
+  text-align: center;
+  font-weight: bold;
+  color: orange;
+  margin: 0px;
+  padding: 0px;
+}
+
+h3 {
+  font-size: 22px;
+  font-family: Arial;
+  text-align: right;
+  font-style: italic;
+  background-image: linear-gradient(white, lightgray);
+  padding: 15px 5px 15px 10px;
+  margin: 0px;
+}
+
+h4 {
+  margin: 19px 0px 0px 0px;
+  font-size: 18px;
+  font-family: Arial;
+  color: white;
+  text-align: right;
+}
+
+h5 {
+  font-size: 18px;
+  font-family: Arial;
+  color: white;
+  text-align: center;
+  margin: 15px 5px 15px 5px;
+}
+
+h6 {
+  font-size: 30px;
+  font-family: Arial;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+  color: orange;
+  text-align: center;
+  margin: 10px 20px 0px 20px;
+  padding: 0px;
+}
+
+/* Engine description */
+#p01 {
+  margin: 78px 25px 15px 18px;
+  font-family: Arial;
+  font-size: 15px;
+  color: white;
+  text-align: left; 
+}
+
+/* All descriptions under Engine */
+#p02{
+  margin: 21px 25px 15px 18px;
+  font-size: 15px;
+  font-family: Arial;
+  color: white;
+  text-align: left;
+}
+
+ol {
+  font-family: Arial;
+  font-size: 14px;
+  color: white;
+  text-align: left;
+  margin: 0px 25px 15px 20px;
+}
+
+ul {
+  font-family: Arial;
+  font-size: 14px;
+  color: white;
+  text-align: left;
+  margin: 0px 25px 15px 20px;
+}
+
+/* Orange bullet table english */
+#ul01 {
+  font-family: Arial;
+  font-size: 13px;
+  color: white;
+  text-align: left;
+  background-color: orange;
+  text-shadow: 1px 1px black;
+  padding: 5px 9px 5px 20px;
+  margin: 18px
+}
